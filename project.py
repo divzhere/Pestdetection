@@ -13,7 +13,7 @@ import pylab
 from scipy import ndimage
 def conversion():
     #os.system()
-    image = cv2.imread('pestimg3.jpg')
+    image = cv2.imread('pestimg.jpg')
     gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     cv2.imwrite('gray_image.png',gray_image)
     cv2.imshow('color_image',image)
